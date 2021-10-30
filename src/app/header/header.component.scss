@@ -1,0 +1,95 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    right: 50px;
+}
+
+.header{
+    display: flex;
+    padding-top: 25px;
+
+}
+
+.left, .right{
+    display: flex;
+
+}
+
+.link{
+    padding: 20px;
+}
+
+.find{
+    display: flex;
+}
+
+.logo{
+    padding: 0 100px;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    font-family: Gilroy-ultralight;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.findIMG{
+    padding: 0px 10px;
+    position: relative;
+    bottom: 15px;
+    cursor: pointer;
+}
+
+.headerIMG{
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.burger{
+    visibility: hidden;
+}
+
+.registration{
+    padding-left: 30px;
+}
+
+@media screen and (max-width: 1230px){
+	.logo{
+        padding: 0 50px;
+    }
+
+    .registration{
+        padding-left: 10px;
+    }    
+}
+@media screen and (max-width: 1013px){
+    .registration{
+        position: relative;
+        bottom: 5px;
+        left: 20px;
+    }
+}
+@media screen and (max-width: 1070px){
+    .logo{
+        padding: 0 30px;
+    }
+}
+@media screen and (max-width: 1000px){
+    .logo{
+        position: relative;
+        right: 20px;
+    }
+    .left, .right{
+        visibility: hidden;
+    }
+    .burger{
+        visibility: visible;
+        position: relative;
+        left: 650px;
+        bottom: 15px;
+    }
+}
