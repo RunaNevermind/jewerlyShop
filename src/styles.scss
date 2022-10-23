@@ -1,25 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
-    font-family: Gilroy-ultralight;
-    src: url(assets/fonts/gilroy-ultralight.ttf);
+    font-family: Gilroy-light;
+    src: url(assets/fonts/Gilroy-Light.ttf);
 }
-
+@font-face {
+    font-family: Gilroy-medium;
+    src: url(assets/fonts/Gilroy-Medium.ttf);
+}
 @font-face {
     font-family: Gilroy-regular;
-    src: url(assets/fonts/gilroy-regular.ttf);
+    src: url(assets/fonts/Gilroy-Regular.ttf);
 }
-
 @font-face {
     font-family: Gilroy-medium;
     src: url(assets/fonts/gilroy-medium.ttf);
 }
-
 @font-face {
     font-family: NotoSerif-Regular;
     src: url(assets/fonts/NotoSerif-Regular.ttf);
 }
-
 @font-face {
     font-family: NotoSerif-Bold;
     src: url(assets/fonts/NotoSerif-Bold.ttf);
+}
+html{
+    font-family: NotoSerif-Regular;
 }

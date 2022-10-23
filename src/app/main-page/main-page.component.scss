@@ -1,43 +1,5 @@
-.background{
-    min-width: 640px;
-    width: 100%;
-    height: auto;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -3;
-}
 
-.container{
-    background-position: center center;
-    background-size: cover;
-    
-}
 
-@media screen and (max-width: 1200px){
-	.background{
-        height: 48%;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 640px) {
-    .background{
-        height: 38.5%;
-        object-fit: cover;
-    }
-}
-
-@media screen and (max-width: 965px) {
-
-}
-
-.start-page{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    top: 450px;       
-}
 
 .slogan{
     display: flex;
@@ -60,22 +22,12 @@ button{
     background-color: #333333;
     color: #fff;
     cursor: pointer;
-    margin-top: 20px;
 }
 
 .coco{
     display: flex;
     justify-content: center;
     padding-top: 30px;
-    margin: 80px;
     border-top: 1px solid #fff;
 }
 
-.cocoIMG{
-    padding: 0 15px;
-    border-right: 1px solid #fff;
-}
-
-.cocoIMGlast{
-    padding-left: 15px;
-}
